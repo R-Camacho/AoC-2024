@@ -1,5 +1,5 @@
 # 🎄🎅️ Advent of Code 2024 🎅🎄
-| Day | Stars | Languages    |
+| Day | Stars | Language(s)    |
 | --: | :--:  | :----------  |
 |   1 | ★★  | C++ |
 |   2 | ★★  | C++ |
