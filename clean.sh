@@ -1,1 +1,1 @@
-rm -rf *.o
+find . -name "*.o" -type f -exec rm -f {} +
