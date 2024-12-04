@@ -11,7 +11,6 @@ int part1() {
 
   int total = 0;
   for (size_t i = 0; i < INPUT_SIZE; i++) {
-    printf("vec1[%ld]: %d vec2[%ld]: %d\n", i, vec1[i], i, vec2[i]);
     total += abs(vec1[i] - vec2[i]);
   }
   return total;
@@ -51,8 +50,8 @@ int main() {
     i++;
   }
 
-  // int total = part1();
-  // cout << "Total distance: " << total << endl;
+  int total = part1();
+  cout << "Total distance: " << total << endl;
 
   int similarity = part2();
   cout << "Similarity score: " << similarity << endl;
