@@ -45,20 +45,14 @@ int canForm(int x, int y) {
     diag2 += lines[x + i][y - i];
   }
 
-  cout << diag1 << " " << diag2 << endl;
-
   int count = 0;
   if (diag1 == word) count++;
   if (diag2 == word) count++;
 
-  // cout << string(diag1.rbegin(), diag1.rend()) << endl;
   if (string(diag1.rbegin(), diag1.rend()) == word) count++;
-  // cout << string(diag2.rbegin(), diag2.rend()) << endl;
   if (string(diag2.rbegin(), diag2.rend()) == word) count++;
 
-  cout << count << endl;
-
-  return count; // max(2, count);
+  return count;
 }
 
 int part1() {
